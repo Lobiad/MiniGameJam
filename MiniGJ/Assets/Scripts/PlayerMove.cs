@@ -17,25 +17,21 @@ public class PlayerMove : MonoBehaviour
 		if (Input.GetKey(KeyCode.RightArrow))
 		{
 			transform.Translate(Vector2.right * 4f * Time.deltaTime);
-			transform.eulerAngles = new Vector3(0, 0, 0);
 		}
 
 		if (Input.GetKey(KeyCode.LeftArrow))
 		{
 			transform.Translate(Vector2.left * 4f * Time.deltaTime);
-			transform.eulerAngles = new Vector3(0, 0, 0);
 		}
 
 		if (Input.GetKey(KeyCode.UpArrow))
 		{
 			transform.Translate(Vector3.forward * 4f * Time.deltaTime);
-			transform.eulerAngles = new Vector3(0, 0, 0);
 		}
 
 		if (Input.GetKey(KeyCode.DownArrow))
 		{
 			transform.Translate(Vector3.back * 4f * Time.deltaTime);
-			transform.eulerAngles = new Vector3(0, 0, 0);
 		}
 
 
